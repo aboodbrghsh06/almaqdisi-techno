@@ -256,4 +256,31 @@ footer{
     padding: 30px 20px;
   }
 
-  /
+  /* Contact */
+  .contact-box {
+    width: 90%;
+    padding: 35px 20px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
